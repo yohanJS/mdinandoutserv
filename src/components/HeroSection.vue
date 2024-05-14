@@ -52,7 +52,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 250%;
     height: 100vh;
     z-index: -1;
   }
