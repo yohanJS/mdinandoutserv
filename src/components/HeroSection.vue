@@ -6,7 +6,7 @@
           <iframe
             src="https://www.youtube.com/embed/x7gqoHNgO-g?autoplay=1&loop=1&mute=1&controls=0"
             frameborder="0"
-            allow="autoplay; encrypted-media"
+            allow="autoplay; encrypted-media; fullscreen"
             allowfullscreen
           ></iframe>
         </div>
