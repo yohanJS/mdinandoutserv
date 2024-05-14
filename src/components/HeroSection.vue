@@ -3,12 +3,7 @@
     <div class="row g-0">
       <div class="col-md-12 shadow-lg position-relative">
         <div class="video-background">
-          <iframe
-            src="https://www.youtube.com/embed/x7gqoHNgO-g?autoplay=1&loop=1&mute=1&controls=0"
-            frameborder="0"
-            allow="autoplay; encrypted-media; fullscreen"
-            allowfullscreen
-          ></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/x7gqoHNgO-g?si=fY3SIJq3TCAi8H_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div class="overlay"></div>
         <div class="d-flex flex-column justify-content-center align-items-center text-center text-white" style="position: absolute; top: 0; left: 0; width: 100%; height: 100vh; z-index: 1;">
