@@ -3,8 +3,8 @@
       <div class="row g-0">
         <div class="col-md-12 shadow-lg position-relative">
           <div class="video-background">
-          <iframe frameborder="0" width="100%" height="100%" src="https://www.dailymotion.com/embed/video/k8SjyiPh6eNoxjAEPKe?autoplay=1&mute=1" allowfullscreen allow="autoplay"></iframe>
-        </div>
+            <iframe frameborder="0" width="100%" height="100%" src="https://www.dailymotion.com/embed/video/k8SjyiPh6eNoxjAEPKe?autoplay=1&mute=1&endscreen-enable=false" allowfullscreen allow="autoplay"></iframe>
+          </div>
           <div class="overlay"></div>
           <div class="d-flex flex-column justify-content-center align-items-center text-center text-white" style="position: absolute; top: 0; left: 0; width: 100%; height: 100vh; z-index: 1;">
             <p class="text-uppercase pb-3">
