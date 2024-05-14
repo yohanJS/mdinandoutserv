@@ -3,7 +3,7 @@
     <div class="row g-0">
       <div class="col-md-12 shadow-lg position-relative">
         <div class="video-background">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/x7gqoHNgO-g?si=fY3SIJq3TCAi8H_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/x7gqoHNgO-g?autoplay=1&mute=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div class="overlay"></div>
         <div class="d-flex flex-column justify-content-center align-items-center text-center text-white" style="position: absolute; top: 0; left: 0; width: 100%; height: 100vh; z-index: 1;">
@@ -39,9 +39,8 @@
   color: #1C434D;
 }
 .glass-button {
-  background-color: rgba(255, 255, 255, 0.3); /* Adjust the opacity (0.3) as needed */
+  background-color: rgba(255, 255, 255, 0.1); /* Adjust the opacity (0.3) as needed */
   backdrop-filter: blur(10px); /* Adjust the blur value as needed */
-  border: none; /* Remove the border for a cleaner look */
 }
 .btn-border-color {
   border: 1px solid #CFDD51;
