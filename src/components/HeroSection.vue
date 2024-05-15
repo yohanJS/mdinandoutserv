@@ -5,14 +5,14 @@
           <!-- <div class="video-background">
             <iframe frameborder="0" width="100%" height="100%" src="https://www.dailymotion.com/embed/video/k8SjyiPh6eNoxjAEPKe?autoplay=1&mute=1&endscreen-enable=false" allowfullscreen allow="autoplay"></iframe>
           </div> -->
-          <video autoplay loop muted plays-inline class="h-50">
+          <video autoplay loop muted playsinline class="h-75">
             <source src="../assets/web _md_in and out services.mp4" type="video/mp4">
           </video>
           <!-- <div class="video-background">
             <iframe src="https://player.vimeo.com/video/946421474?autoplay=1&loop=1&controls=0&badge=0&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="web _md_in and out services"></iframe>
           </div> -->
           <div class="overlay"></div>
-          <div class="d-flex flex-column justify-content-center align-items-center text-center text-white" style="position: absolute; top: 0; left: 0; width: 100%; height: 100vh; z-index: 1;">
+          <div class="d-flex flex-column justify-content-center align-items-center text-center text-white" style="position: absolute; top: -90px; left: 0; width: 100%; height: 100vh; z-index: 1;">
             <p class="text-uppercase pb-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@
   }
   .video-background {
     position: absolute;
-    top: 0;
+    top: -90;
     left: 0;
     width: 320%;
     height: 100vh;
