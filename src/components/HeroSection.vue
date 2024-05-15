@@ -2,9 +2,15 @@
     <div class="container-fluid p-0 bg-dark">
       <div class="row g-0">
         <div class="col-md-12 shadow-lg position-relative">
-          <div class="video-background">
+          <!-- <div class="video-background">
+            <iframe frameborder="0" width="100%" height="100%" src="https://www.dailymotion.com/embed/video/k8SjyiPh6eNoxjAEPKe?autoplay=1&mute=1&endscreen-enable=false" allowfullscreen allow="autoplay"></iframe>
+          </div> -->
+          <video autoplay loop muted plays-inline class="h-50">
+            <source src="../assets/web _md_in and out services.mp4" type="video/mp4">
+          </video>
+          <!-- <div class="video-background">
             <iframe src="https://player.vimeo.com/video/946421474?autoplay=1&loop=1&controls=0&badge=0&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="web _md_in and out services"></iframe>
-          </div>
+          </div> -->
           <div class="overlay"></div>
           <div class="d-flex flex-column justify-content-center align-items-center text-center text-white" style="position: absolute; top: 0; left: 0; width: 100%; height: 100vh; z-index: 1;">
             <p class="text-uppercase pb-3">
@@ -52,7 +58,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 330%;
+    width: 320%;
     height: 100vh;
     z-index: -1;
   }
