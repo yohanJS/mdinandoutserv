@@ -2,9 +2,12 @@
     <div class="container-fluid p-0 bg-dark">
       <div class="row g-0">
         <div class="col-md-12 shadow-lg position-relative">
-          <video autoplay loop muted playsinline>
+
+          <!-- <video autoplay loop muted playsinline>
             <source src="../assets/web _md_in and out services.mp4" type="video/mp4">
-          </video>
+          </video> -->
+
+          <img src="../assets/bg-forNow.jpg" alt="Background Image" class="img-fluid" style="object-fit: cover; width: 100%; height: 100vh;">
 
           <div class="d-flex flex-column pt-5 align-items-center text-center text-white" style="position: absolute; top: 0; left: 0; width: 100%; height: 100vh; z-index: 1;">
             <p class="text-uppercase pb-3">

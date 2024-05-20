@@ -81,7 +81,7 @@ window.addEventListener('resize', () => {
 
   <style scoped>
   .split-bg {
-    background: linear-gradient(to bottom, #0a323d 70%, #ffffff 10%);
+    background: linear-gradient(to bottom, #0a323d 60%, #ffffff 40%);
   }
 .bg-color {
   background-color: #0a323d;
