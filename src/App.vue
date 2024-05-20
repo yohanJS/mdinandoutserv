@@ -3,7 +3,10 @@ import LetsTalk from './components/LetsTalk.vue';
 import NavBar from './components/NavBar.vue';
 import HeroSection from './components/HeroSection.vue';
 import AboutUs from './components/AboutUs.vue';
-import Services from './components/Services.vue'
+import Services from './components/Services.vue';
+import ContactForm from './components/ContactForm.vue';
+
+
 </script>
 
 <template>
@@ -12,6 +15,7 @@ import Services from './components/Services.vue'
   <HeroSection></HeroSection>
   <AboutUs></AboutUs>
   <Services></Services>
+  <ContactForm></ContactForm>
   <!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
 
