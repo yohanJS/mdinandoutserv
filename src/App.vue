@@ -3,6 +3,7 @@ import LetsTalk from './components/LetsTalk.vue';
 import NavBar from './components/NavBar.vue';
 import HeroSection from './components/HeroSection.vue';
 import AboutUs from './components/AboutUs.vue';
+import Services from './components/Services.vue'
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import AboutUs from './components/AboutUs.vue';
   <NavBar></NavBar>
   <HeroSection></HeroSection>
   <AboutUs></AboutUs>
+  <Services></Services>
   <!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
 
