@@ -5,8 +5,8 @@
           <video autoplay loop muted playsinline>
             <source src="../assets/web _md_in and out services.mp4" type="video/mp4">
           </video>
-          <div class="overlay"></div>
-          <div class="d-flex flex-column pt-3 align-items-center text-center text-white" style="position: absolute; top: 0; left: 0; width: 100%; height: 100vh; z-index: 1;">
+
+          <div class="d-flex flex-column pt-5 align-items-center text-center text-white" style="position: absolute; top: 0; left: 0; width: 100%; height: 100vh; z-index: 1;">
             <p class="text-uppercase pb-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -47,13 +47,5 @@
   }
   .text-color {
     color: #cfdd51;
-  }
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
   }
   </style>
