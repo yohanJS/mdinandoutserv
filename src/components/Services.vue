@@ -28,7 +28,7 @@
           </svg>
           </span>
         </h3>
-        <p class="text-start m-3">Aluminum Pergola
+        <p class="text-start m-3">
         Create a space where you and your family can make lasting memories.
         </p>
       </div>
@@ -44,7 +44,7 @@
           </svg>
           </span>
         </h3>
-        <p class="text-start m-3">Aluminum Pergola
+        <p class="text-start m-3">
           Our outdoor kitchen specialists can help you plan and design your space.
         </p>
       </div>
@@ -57,7 +57,7 @@
           </svg>
           </span>
         </h3>
-        <p class="text-start m-3">Aluminum Pergola
+        <p class="text-start m-3">
           Permit procedures for new constructions and legalizations. 
         </p>
       </div>
