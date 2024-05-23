@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection.vue';
 import AboutUs from './components/AboutUs.vue';
 import Services from './components/Services.vue';
 import ContactForm from './components/ContactForm.vue';
+import Projects from './components/Projects.vue';
 
 
 </script>
@@ -16,6 +17,7 @@ import ContactForm from './components/ContactForm.vue';
   <AboutUs></AboutUs>
   <Services></Services>
   <ContactForm></ContactForm>
+  <Projects></Projects>
   <!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
 

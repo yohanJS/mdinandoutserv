@@ -20,7 +20,7 @@
         <button class="btn btn-lg rounded-pill glass-button btn-border-color text-white fw-bold mt-3" style="width: 250px;">Browse all services</button>
       </div>
       <div class="col-12 col-md-4 text-center mt-5">
-        <img src="../assets/aboutUsBg.jpg" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
+        <img src="../assets/card-1.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
         <h3 class="text-start m-3">Aluminum Pergola
           <span class="arrow-margin"><svg width="19" height="30" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M3.94834 19.676L15.599 4.90053" stroke="#CFDD51" stroke-width="2" stroke-linecap="square"/>
@@ -36,7 +36,7 @@
     <div class="container" v-if="isMobile">
       <div class="row">
         <div class="col-12 col-md-4 text-center mt-5">
-        <img src="../assets/aboutUsBg.jpg" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
+        <img src="../assets/card-2.png" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
         <h3 class="text-start m-3">Outdoor Kitchen
           <span class="arrow-margin"><svg width="19" height="30" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M3.94834 19.676L15.599 4.90053" stroke="#CFDD51" stroke-width="2" stroke-linecap="square"/>
@@ -49,7 +49,7 @@
         </p>
       </div>
       <div class="col-12 col-md-4 text-center mt-5">
-        <img src="../assets/aboutUsBg.jpg" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
+        <img src="../assets/card-3.png" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
         <h3 class="text-start m-3">Permit
           <span class="arrow-margin"><svg width="19" height="30" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M3.94834 19.676L15.599 4.90053" stroke="#CFDD51" stroke-width="2" stroke-linecap="square"/>
@@ -104,7 +104,7 @@ window.addEventListener('resize', () => {
   }
   .img-size {
     width: 90%;
-    height: 370px;
+    height: 400px;
   }
   .arrow-margin {
     margin-left: 20px;

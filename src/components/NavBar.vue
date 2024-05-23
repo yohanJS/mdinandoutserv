@@ -67,7 +67,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
             </li>
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -87,7 +87,7 @@
                   <a class="dropdown-item" href="#">Something else here</a>
                 </li>
               </ul>
-            </li>
+            </li> -->
           </ul>
           <!-- <form class="d-flex mt-3" role="search">
             <input
