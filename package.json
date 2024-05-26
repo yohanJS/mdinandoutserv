@@ -10,6 +10,7 @@
     "compile-bootstrap": "node-sass node_modules/bootstrap/scss/bootstrap.scss dist/bootstrap.css"
   },
   "dependencies": {
+    "axios": "^1.7.2",
     "bootstrap": "^5.2.3",
     "node-sass": "^9.0.0",
     "vue": "^3.4.21"
