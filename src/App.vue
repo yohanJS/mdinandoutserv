@@ -6,6 +6,7 @@ import AboutUs from './components/AboutUs.vue';
 import Services from './components/Services.vue';
 import ContactForm from './components/ContactForm.vue';
 import Projects from './components/Projects.vue';
+import Footer from './components/Footer.vue';
 
 
 </script>
@@ -18,6 +19,7 @@ import Projects from './components/Projects.vue';
   <Services></Services>
   <ContactForm></ContactForm>
   <Projects></Projects>
+  <Footer></Footer>
   <!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
 

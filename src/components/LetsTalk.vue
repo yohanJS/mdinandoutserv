@@ -1,5 +1,5 @@
 <template>
-  <div class="row justify-content-center bg-color pb-2 pt-2">
+  <div class="row justify-content-center bg-color pb-2 pt-2 m-0">
     <div class="col-12 p-0 text-center" v-if="isMobile">
       <p class="m-0 txt-color">Let's talk <a href="tel:+1xxxxxxxxxx">(xxx) xxx-xxxx</a></p>
       <p class="m-0"><a href="mailto:xx@domain.com">xx@domain.com</a></p>

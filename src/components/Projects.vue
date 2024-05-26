@@ -1,5 +1,5 @@
 <template>
-  <div class="container split-bg pt-5 pb-5" v-if="isMobile">
+  <div class="container split-bg p-5" v-if="isMobile">
     <div class="col-12 text-center">
       <p class="text-uppercase pb-3 line">
         <svg
@@ -29,7 +29,7 @@
       </div>
     </div>
   </div>
-  <div class="container" v-if="isMobile">
+  <div class="container pb-5" v-if="isMobile">
     <div class="row">
       <div class="col-12 col-md-4 text-center mt-5">
         <div class="image-container">
