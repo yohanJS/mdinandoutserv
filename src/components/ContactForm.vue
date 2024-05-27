@@ -58,7 +58,7 @@
               for="email"
               aria-label="Enter email"
               v-model="email"
-              type="tel"
+              type="email"
             />
           </div>
           <!-- <div class="col-12 col-md-6 m-auto mt-3">
@@ -119,8 +119,9 @@ export default {
       email: "",
       notes: "",
       fromEmail: "yohangarcia@yohangarcia.com",
-      //toEmail: "yoanvaldes01@icloud.com",
-      toEmail: "alvaldes86@hotmail.com",
+      toEmail: "yoanvaldes01@icloud.com",
+      //toEmail: "mairelyscd22@gmail.com",
+      // toEmail: "alvaldes86@hotmail.com",
       subject: "Free Quote Requested",
       successMessage: "",
       errorMessage: "",
