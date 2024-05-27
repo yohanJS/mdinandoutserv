@@ -27,7 +27,7 @@
         <form
           class="col-12 col-md-6 mt-5 border border-1 shadow-lg rounded-5 p-3 bg-white"
           id="reviewForm"
-          v-on:submit.prevent="createReview"
+          v-on:submit.prevent="sendEmailForm"
         >
           <div class="col-12 col-md-6 m-auto mt-3">
             <label class="form-label fw-bold">Full Name</label>
@@ -36,7 +36,7 @@
               class="form-control"
               for="author"
               aria-label="Enter author's name"
-              v-model="author"
+              v-model="name"
             />
           </div>
           <div class="col-12 col-md-6 m-auto mt-3">
@@ -55,9 +55,9 @@
             <input
               required
               class="form-control"
-              for="phoneNumber"
-              aria-label="Enter phone number"
-              v-model="phoneNumber"
+              for="email"
+              aria-label="Enter email"
+              v-model="email"
               type="tel"
             />
           </div>
@@ -66,11 +66,24 @@
             <input
               required
               class="form-control"
-              for="phoneNumber"
-              aria-label="Enter phone number"
-              v-model="phoneNumber"
+              for="zipCode"
+              aria-label="Enter zip code"
+              v-model="zipCode"
               type="tel"
             />
+          </div>
+          <div class="col-12 col-md-6 m-auto mt-3">
+            <label class="form-label fw-bold">Special Notes</label>
+            <textarea
+              required
+              class="form-control"
+              for="notes"
+              aria-label="Enter notes"
+              v-model="notes"
+              rows="4"
+              cols="50"
+            >
+            </textarea>
           </div>
 
           <div class="col-12 text-center">
@@ -84,18 +97,51 @@
   </div>
 </template>
 
-<script setup>
-import { ref, onMounted } from "vue";
+<script>
+import axios from "axios";
 
-const isMobile = ref(false);
-
-onMounted(() => {
-  isMobile.value = window.innerWidth <= 768;
-});
-
-window.addEventListener("resize", () => {
-  isMobile.value = window.innerWidth <= 768;
-});
+export default {
+  data() {
+    return {
+      name: "",
+      phoneNumber: "",
+      notes: "",
+      fromEmail: "yohangarcia@yohangarcia.com",
+      toEmail: "yoanvaldes01@icloud.com",
+      // toEmail: "alvaldes86@hotmail.com",
+      subject: "Free Quote Requested",
+      successMessage: "",
+      errorMessage: "",
+    };
+  },
+  methods: {
+    async sendEmailForm() {
+      try {
+        const response = await axios.post("/.netlify/functions/emails/sendRequest", {
+          from: this.fromEmail,
+          to: this.toEmail,
+          subject: this.subject,
+          parameters: {
+            name: this.name,
+            phoneNumber: this.phoneNumber, 
+            email: this.email, 
+            notes: this.notes
+          },
+        },
+        {
+          headers: {
+        "netlify-emails-secret": import.meta.env.VITE_NETLIFY_EMAILS_SECRET,
+          },
+        });
+        this.successMessage = response.data.message;
+        this.errorMessage = "";
+      } catch (error) {
+        this.errorMessage = "Failed to send email. Please try again.";
+        console.error(error);
+      }
+    },
+  },
+};
 </script>
 
 <style scoped>

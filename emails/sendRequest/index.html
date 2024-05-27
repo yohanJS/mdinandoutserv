@@ -1,7 +1,38 @@
 <html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      h4 {
+        color: #333;
+        margin-bottom: 10px;
+      }
+      p {
+        margin: 0;
+        padding: 0;
+        color: #666;
+      }
+      strong {
+        color: #333;
+      }
+      .phoneEmailColor {
+        text-decoration: none;
+        color: #CFDD51;
+      }
+      a {
+        text-decoration: none;
+        color: #CFDD51;
+      }
+    </style>
+  </head>
   <body>
-    <h1>Welcome, {{name}}</h1>
-    <p>We hope you enjoy our super simple emails!</p>
-    <p>Thanks for subscribing!</p>
+    <h4>{{name}} is ready for a free quote.</h4>
+    <p>Contact Information:</p>
+    <p><strong>Phone:</strong> <span class="phoneEmailColor">{{phoneNumber}}</span></p>
+    <p><strong>Email:</strong> <span class="phoneEmailColor">{{email}}</span></p>
+    <br>
+    <p><strong>Special Notes:</strong></p>
+    <p>{{notes}}</p>
   </body>
 </html>

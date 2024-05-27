@@ -14,7 +14,7 @@
       </p>
     </div>
     <div class="col-12 text-center">
-      <h1 class="text-white">Take a look at our portfolio</h1>
+      <h1 class="text-white">Take a look at our projects</h1>
     </div>
     <div class="col-12 col-md-4 text-center mt-5" v-if="isMobile">
       <div class="image-container">
