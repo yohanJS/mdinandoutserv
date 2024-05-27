@@ -3,25 +3,25 @@
     <div class="row d-flex justify-content-center">
       <div class="col-12 col-md-6 text-center">
         <p class="text-uppercase pb-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 1 100 3"
-                width="20"
-                height="5"
-              >
-                <rect width="100" height="3" fill="#cfdd51" />
-              </svg>
-              <strong class="text-color"> CONTACT US </strong>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 1 100 3"
-                width="20"
-                height="5"
-              >
-                <rect width="100" height="3" fill="#cfdd51" />
-              </svg>
-            </p>
-            <h1 class="text-white">Ready to get a free quote?</h1>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 1 100 3"
+            width="20"
+            height="5"
+          >
+            <rect width="100" height="3" fill="#cfdd51" />
+          </svg>
+          <strong class="text-color"> CONTACT US </strong>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 1 100 3"
+            width="20"
+            height="5"
+          >
+            <rect width="100" height="3" fill="#cfdd51" />
+          </svg>
+        </p>
+        <h1 class="text-white">Ready to get a free quote?</h1>
       </div>
       <div class="row d-flex justify-content-center">
         <form
@@ -61,7 +61,7 @@
               type="tel"
             />
           </div>
-          <div class="col-12 col-md-6 m-auto mt-3">
+          <!-- <div class="col-12 col-md-6 m-auto mt-3">
             <label class="form-label fw-bold">Zip Code</label>
             <input
               required
@@ -71,7 +71,7 @@
               v-model="zipCode"
               type="tel"
             />
-          </div>
+          </div> -->
           <div class="col-12 col-md-6 m-auto mt-3">
             <label class="form-label fw-bold">Special Notes</label>
             <textarea
@@ -87,11 +87,22 @@
           </div>
 
           <div class="col-12 text-center">
-            <button type="submit" id="submit" class="btn btn-lg rounded-pill btn-color btn-text-color fw-bold mt-5 mb-4" style="width: 250px;">
+            <button
+              type="submit"
+              id="submit"
+              class="btn btn-lg rounded-pill btn-color btn-text-color fw-bold mt-5 mb-4"
+              style="width: 250px"
+            >
               Submit
             </button>
           </div>
-    </form>
+        </form>
+        <div v-if="successMessage" class="alert alert-success mt-2" role="alert">
+          {{ successMessage }}
+        </div>
+        <div v-if="errorMessage" class="alert alert-danger" role="alert">
+          {{ errorMessage }}
+        </div>
       </div>
     </div>
   </div>
@@ -105,6 +116,7 @@ export default {
     return {
       name: "",
       phoneNumber: "",
+      email: "",
       notes: "",
       fromEmail: "yohangarcia@yohangarcia.com",
       toEmail: "yoanvaldes01@icloud.com",
@@ -117,27 +129,37 @@ export default {
   methods: {
     async sendEmailForm() {
       try {
-        const response = await axios.post("/.netlify/functions/emails/sendRequest", {
-          from: this.fromEmail,
-          to: this.toEmail,
-          subject: this.subject,
-          parameters: {
-            name: this.name,
-            phoneNumber: this.phoneNumber, 
-            email: this.email, 
-            notes: this.notes
-          },
-        },
-        {
-          headers: {
-        "netlify-emails-secret": import.meta.env.VITE_NETLIFY_EMAILS_SECRET,
-          },
-        });
-        this.successMessage = response.data.message;
-        this.errorMessage = "";
+        const response = await axios
+          .post(
+            "/.netlify/functions/emails/sendRequest",
+            {
+              from: this.fromEmail,
+              to: this.toEmail,
+              subject: this.subject,
+              parameters: {
+                name: this.name,
+                phoneNumber: this.phoneNumber,
+                email: this.email,
+                notes: this.notes,
+              },
+            },
+            {
+              headers: {
+                "netlify-emails-secret": import.meta.env
+                  .VITE_NETLIFY_EMAILS_SECRET,
+              },
+            }
+          )
+          .then(
+            (this.name = ""),
+            (this.phoneNumber = ""),
+            (this.email = ""),
+            (this.notes = ""),
+            (this.successMessage = "We have received your request and will get back to you as soon as possible."),
+          );
       } catch (error) {
-        this.errorMessage = "Failed to send email. Please try again.";
-        console.error(error);
+        this.errorMessage = "Failed to submit form. Please try again.";
+        console.error(response.data.message);
       }
     },
   },
@@ -152,22 +174,27 @@ export default {
   background-color: #0a323d;
 }
 .bg-color {
-    background-color: #0a323d;
-  }
-  .btn-color {
-    background-color: #CFDD51;
-  }
-  .btn-text-color {
-    color: #1C434D;
-  }
-  .glass-button {
-    background-color: rgba(255, 255, 255, 0.1); /* Adjust the opacity (0.3) as needed */
-    backdrop-filter: blur(10px); /* Adjust the blur value as needed */
-  }
-  .btn-border-color {
-    border: 1px solid #CFDD51;
-  }
-  .text-color {
-    color: #cfdd51;
-  }
+  background-color: #0a323d;
+}
+.btn-color {
+  background-color: #cfdd51;
+}
+.btn-text-color {
+  color: #1c434d;
+}
+.glass-button {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Adjust the opacity (0.3) as needed */
+  backdrop-filter: blur(10px); /* Adjust the blur value as needed */
+}
+.btn-border-color {
+  border: 1px solid #cfdd51;
+}
+.text-color {
+  color: #cfdd51;
+}
 </style>
