@@ -61,17 +61,17 @@
               type="email"
             />
           </div>
-          <!-- <div class="col-12 col-md-6 m-auto mt-3">
+          <div class="col-12 col-md-6 m-auto mt-3">
             <label class="form-label fw-bold">Zip Code</label>
             <input
               required
               class="form-control"
               for="zipCode"
-              aria-label="Enter zip code"
+              aria-label="Enter Zip Code"
               v-model="zipCode"
-              type="tel"
+              type="number"
             />
-          </div> -->
+          </div>
           <div class="col-12 col-md-6 m-auto mt-3" id="specialNotes">
             <label class="form-label fw-bold">Special Notes</label>
             <textarea
@@ -171,6 +171,7 @@ export default {
       name: "",
       phoneNumber: "",
       email: "",
+      zipCode: "",
       notes: "",
       fromEmail: "yohangarcia@yohangarcia.com",
       toEmail: "yoanvaldes01@icloud.com",
@@ -195,6 +196,7 @@ export default {
                 name: this.name,
                 phoneNumber: this.phoneNumber,
                 email: this.email,
+                zipCode: this.zipCode,
                 notes: this.notes,
               },
             },
