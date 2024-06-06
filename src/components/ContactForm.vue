@@ -97,13 +97,14 @@
             </button>
           </div>
         </form>
+        <!--SUCCESS MODAL-->
         <div>
           <div class="modal fade" id="submissionModal" tabindex="-1" aria-labelledby="submissionModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content txt-color">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="submissionModalLabel">Thank you!</h5>
-                  <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <h5 class="modal-title" id="submissionModalLabel">Thank you {{ thankYouName }}</h5>
+                  <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <p>We have received your request and will get back to you as soon as possible.</p>
@@ -180,6 +181,7 @@ export default {
       subject: "Free Quote Requested",
       isSubmissionOk: false,
       errorMessage: "",
+      thankYouName: "",
     };
   },
   methods: {
@@ -209,6 +211,7 @@ export default {
           )
           .then(
             this.isSubmissionOk = true,
+            this.thankYouName = this.name,
           );
           const modalElement = document.getElementById("submissionModal");
           const submissionModal = new Modal(modalElement);
