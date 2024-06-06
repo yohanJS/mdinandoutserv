@@ -103,8 +103,8 @@ window.addEventListener('resize', () => {
     border-bottom-right-radius: 195px;
   }
   .img-size {
-    width: 90%;
-    height: 400px;
+    width: 85%;
+    height: 330px;
   }
   .arrow-margin {
     margin-left: 20px;
