@@ -21,7 +21,7 @@
             <rect width="100" height="3" fill="#cfdd51" />
           </svg>
         </p>
-        <h1 class="text-white">Ready to get a free quote?</h1>
+        <h1 class="text-white display-1">Ready to get a free quote?</h1>
       </div>
       <div class="row d-flex justify-content-center">
         <form

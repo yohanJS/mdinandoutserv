@@ -14,7 +14,7 @@
             </p>
       </div>
       <div class="col-12 text-center">
-        <h1 class="text-white">A diverse range of services</h1>
+        <h1 class="text-white display-1">A diverse range of services</h1>
       </div>
       <div class="col-12 text-center mt-5">
         <button class="btn btn-lg rounded-pill glass-button btn-border-color text-white fw-bold mt-3" style="width: 250px;">Browse all services</button>
