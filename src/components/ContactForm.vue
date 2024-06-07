@@ -26,7 +26,7 @@
       <div class="row d-flex justify-content-center">
         <form
           class="col-12 col-md-6 mt-5 border border-1 shadow-lg rounded-5 p-3 bg-white"
-          id="reviewForm"
+          id="getQuote"
           v-on:submit.prevent="sendEmailForm"
         >
           <div class="col-12 col-md-6 m-auto mt-3">

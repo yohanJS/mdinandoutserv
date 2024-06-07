@@ -2,7 +2,7 @@
 
 <template>
   <!--MOBILE VERSION-->
-  <nav class="navbar bg-color">
+  <nav id="home" class="navbar bg-color">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <svg

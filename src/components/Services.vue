@@ -1,5 +1,5 @@
   <template>
-    <div class="container split-bg pt-5 pb-5" v-if="isMobile">
+    <div id="services" class="container split-bg pt-5 pb-5" v-if="isMobile">
       <div class="col-12 text-center">
         <p class="text-uppercase pb-3 line">
               <svg
