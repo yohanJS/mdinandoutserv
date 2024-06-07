@@ -86,7 +86,7 @@
             </textarea>
           </div>
 
-          <div class="col-12 text-center">
+          <div class="col-12 text-center" v-if="!displaySpinnerMessage">
             <button
               type="submit"
               id="submit"
@@ -96,18 +96,48 @@
               Submit
             </button>
           </div>
+          <div v-else class="col-12 text-center">
+            <button
+              type=""
+              id=""
+              class="btn btn-lg rounded-pill btn-color btn-text-color fw-bold mt-5 mb-4"
+              style="width: 250px"
+            >
+              <span>
+                <div class="spinner-border text-primary" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+              </span>
+            </button>
+          </div>
         </form>
         <!--SUCCESS MODAL-->
         <div>
-          <div class="modal fade" id="submissionModal" tabindex="-1" aria-labelledby="submissionModalLabel" aria-hidden="true">
+          <div
+            class="modal fade"
+            id="submissionModal"
+            tabindex="-1"
+            aria-labelledby="submissionModalLabel"
+            aria-hidden="true"
+          >
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content txt-color">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="submissionModalLabel">Thank you {{ thankYouName }}</h5>
-                  <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <h5 class="modal-title" id="submissionModalLabel">
+                    Thank you {{ thankYouName }}
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close bg-white"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
                 </div>
                 <div class="modal-body">
-                  <p>We have received your request and will get back to you as soon as possible.</p>
+                  <p>
+                    We have received your request and will get back to you as
+                    soon as possible.
+                  </p>
                   <svg
                     width="161"
                     height="86"
@@ -116,8 +146,14 @@
                     xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink"
                   >
-                    <path d="M0 0H160.911V86H0V0Z" fill="url(#pattern0_464_643)" />
-                    <path d="M0 0H160.911V86H0V0Z" fill="url(#pattern1_464_643)" />
+                    <path
+                      d="M0 0H160.911V86H0V0Z"
+                      fill="url(#pattern0_464_643)"
+                    />
+                    <path
+                      d="M0 0H160.911V86H0V0Z"
+                      fill="url(#pattern1_464_643)"
+                    />
                     <defs>
                       <pattern
                         id="pattern0_464_643"
@@ -153,7 +189,11 @@
               </div>
             </div>
           </div>
-          <div v-if="errorMessage != ''" class="alert alert-danger mt-2" role="alert">
+          <div
+            v-if="errorMessage != ''"
+            class="alert alert-danger mt-2"
+            role="alert"
+          >
             {{ errorMessage }}
           </div>
         </div>
@@ -182,10 +222,12 @@ export default {
       isSubmissionOk: false,
       errorMessage: "",
       thankYouName: "",
+      displaySpinnerMessage: false,
     };
   },
   methods: {
     async sendEmailForm() {
+      this.displaySpinnerMessage = true;
       try {
         const response = await axios
           .post(
@@ -209,23 +251,21 @@ export default {
               },
             }
           )
-          .then(
-            this.isSubmissionOk = true,
-            this.thankYouName = this.name,
-          );
-          const modalElement = document.getElementById("submissionModal");
-          const submissionModal = new Modal(modalElement);
-          if(this.isSubmissionOk) {
-            submissionModal.show();
-          };
+          .then((this.isSubmissionOk = true), (this.thankYouName = this.name));
+        const modalElement = document.getElementById("submissionModal");
+        const submissionModal = new Modal(modalElement);
+        if (this.isSubmissionOk) {
+          submissionModal.show();
+        }
       } catch (error) {
         this.errorMessage = "Failed to submit form. Please try again.";
       }
       //reset the data model
-        this.name = "",
-        this.phoneNumber = "",
-        this.email = "",
-        this.notes = ""
+      (this.name = ""),
+        (this.phoneNumber = ""),
+        (this.email = ""),
+        (this.notes = ""),
+        (this.displaySpinnerMessage = false);
     },
   },
 };
@@ -285,5 +325,8 @@ export default {
 .modal-footer {
   border-top: none;
   justify-content: center;
+}
+.spinner-border {
+  color: #0a323d !important;
 }
 </style>
