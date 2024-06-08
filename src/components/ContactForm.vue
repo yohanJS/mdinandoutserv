@@ -264,6 +264,7 @@ export default {
       (this.name = ""),
         (this.phoneNumber = ""),
         (this.email = ""),
+        (this.zipCode = ""),
         (this.notes = ""),
         (this.displaySpinnerMessage = false);
     },
