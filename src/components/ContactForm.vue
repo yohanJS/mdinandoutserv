@@ -69,7 +69,7 @@
               for="zipCode"
               aria-label="Enter Zip Code"
               v-model="zipCode"
-              type="number"
+              type="text"
             />
           </div>
           <div class="col-12 col-md-6 m-auto mt-3" id="specialNotes">
@@ -231,31 +231,22 @@ export default {
       try {
         const response = await axios
           .post(
-            "/.netlify/functions/emails/sendRequest",
+            //"https://localhost:7165/api/RequestQuote",
+            "https://www.bloggyapi.com/api/Review",
             {
-              from: this.fromEmail,
-              to: this.toEmail,
-              subject: this.subject,
-              parameters: {
                 name: this.name,
                 phoneNumber: this.phoneNumber,
                 email: this.email,
                 zipCode: this.zipCode,
                 notes: this.notes,
-              },
             },
-            {
-              headers: {
-                "netlify-emails-secret": import.meta.env
-                  .VITE_NETLIFY_EMAILS_SECRET,
-              },
-            }
           )
           .then((this.isSubmissionOk = true), (this.thankYouName = this.name));
         const modalElement = document.getElementById("submissionModal");
         const submissionModal = new Modal(modalElement);
         if (this.isSubmissionOk) {
           submissionModal.show();
+          console.log(this.response);
         }
       } catch (error) {
         this.errorMessage = "Failed to submit form. Please try again.";
