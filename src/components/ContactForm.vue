@@ -231,8 +231,8 @@ export default {
       try {
         const response = await axios
           .post(
-            "https://localhost:7165/api/RequestQuote",
-            //"https://www.bloggyapi.com/api/RequestQuote",
+            //"https://localhost:7165/api/RequestQuote",
+            "https://www.bloggyapi.com/api/RequestQuote",
             {
                 name: this.name,
                 phoneNumber: this.phoneNumber,
