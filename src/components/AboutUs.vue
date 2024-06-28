@@ -13,6 +13,13 @@
         needs of your home. Our mission is to help our clients bring their dream spaces to life,
         allowing them to transform their homes into something truly extraordinary.
       </p>
+      <p class="p-3">
+        What are you looking for? Is it the same thing we once needed?
+      </p>
+      <p class="p-3">
+        Do not wait any longer. 
+        Come in and learn about all of our services; we're here to help!
+      </p>
       </div>
     </div>
   </div>
