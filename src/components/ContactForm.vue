@@ -215,7 +215,7 @@ export default {
       zipCode: "",
       notes: "",
       fromEmail: "yohangarcia@yohangarcia.com",
-      toEmail: "yoanvaldes01@icloud.com",
+      toEmail: "mdinandoutservices@gamil.com",
       //toEmail: "mairelyscd22@gmail.com",
       // toEmail: "alvaldes86@hotmail.com",
       subject: "Free Quote Requested",
