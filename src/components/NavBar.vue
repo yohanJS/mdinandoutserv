@@ -3,7 +3,7 @@
 <template>
   <!--Make the navbar fixed-top on scroll-->
   <!--MOBILE VERSION-->
-  <nav id="home" class="navbar bg-color">
+  <nav id="home" class="navbar bg-color p-0">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <svg
