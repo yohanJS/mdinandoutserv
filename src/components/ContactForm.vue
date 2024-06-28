@@ -11,7 +11,7 @@
           >
             <rect width="100" height="3" fill="#cfdd51" />
           </svg>
-          <strong class="text-color"> CONTACT US </strong>
+          <strong class="text-white"> CONTACT US </strong>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 1 100 3"

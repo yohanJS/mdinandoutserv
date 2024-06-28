@@ -22,11 +22,6 @@
       <div class="col-12 col-md-4 text-center mt-5">
         <img src="../assets/card-1.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
         <h3 class="text-start m-3">Aluminum Pergola
-          <span class="arrow-margin"><svg width="19" height="30" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M3.94834 19.676L15.599 4.90053" stroke="#CFDD51" stroke-width="2" stroke-linecap="square"/>
-          <path d="M15.9896 18.8074L15.9896 4.48787L4.63706 4.48787" stroke="#CFDD51" stroke-width="2" stroke-linecap="square"/>
-          </svg>
-          </span>
         </h3>
         <p class="text-start m-3">
         Create a space where you and your family can make lasting memories.
@@ -38,11 +33,6 @@
         <div class="col-12 col-md-4 text-center mt-5">
         <img src="../assets/card-2.png" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
         <h3 class="text-start m-3">Outdoor Kitchen
-          <span class="arrow-margin"><svg width="19" height="30" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M3.94834 19.676L15.599 4.90053" stroke="#CFDD51" stroke-width="2" stroke-linecap="square"/>
-          <path d="M15.9896 18.8074L15.9896 4.48787L4.63706 4.48787" stroke="#CFDD51" stroke-width="2" stroke-linecap="square"/>
-          </svg>
-          </span>
         </h3>
         <p class="text-start m-3">
           Our outdoor kitchen specialists can help you plan and design your space.
@@ -51,11 +41,6 @@
       <div class="col-12 col-md-4 text-center mt-5">
         <img src="../assets/card-3.png" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
         <h3 class="text-start m-3">Permit
-          <span class="arrow-margin"><svg width="19" height="30" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M3.94834 19.676L15.599 4.90053" stroke="#CFDD51" stroke-width="2" stroke-linecap="square"/>
-          <path d="M15.9896 18.8074L15.9896 4.48787L4.63706 4.48787" stroke="#CFDD51" stroke-width="2" stroke-linecap="square"/>
-          </svg>
-          </span>
         </h3>
         <p class="text-start m-3">
           Permit procedures for new constructions and legalizations. 

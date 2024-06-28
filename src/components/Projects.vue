@@ -39,19 +39,19 @@
             alt="..."
           />
           <div class="text-overlay">
-            <li class="text-start text-white m-2">Composite Deck</li>
+            <li class="text-start text-white m-2">Motorizer Screen</li>
           </div>
         </div>
       </div>
       <div class="col-12 col-md-4 text-center mt-5">
         <div class="image-container">
           <img
-            src="../assets/project-img-2.png"
+            src="../assets/project-img-3.png"
             class="img-fluid shadow-lg"
             alt="..."
           />
           <div class="text-overlay">
-            <li class="text-start text-white m-2">XXXXXX XX XXXXXX</li>
+            <li class="text-start text-white m-2">TV Wall</li>
           </div>
         </div>
       </div>

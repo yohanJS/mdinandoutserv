@@ -1,6 +1,7 @@
 <script setup></script>
 
 <template>
+  <!--Make the navbar fixed-top on scroll-->
   <!--MOBILE VERSION-->
   <nav id="home" class="navbar bg-color">
     <div class="container-fluid">
