@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="container">
+  <div id="about" class="container section-bg">
     <div class="min-vh-100 row d-flex align-items-center text-center">
       <div class="col-12">
         <p class="text-uppercase pb-1 m-0">
@@ -25,4 +25,8 @@
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.section-bg {
+  background-color: #f5f5f5;
+}
+</style>
