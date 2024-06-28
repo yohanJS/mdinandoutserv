@@ -56,42 +56,8 @@
       >
         <span>
           <div class="toggler-icon">
-            <svg
-              width="50"
-              height="50"
-              viewBox="0 0 45 45"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M42.0001 22C42.0001 33.0457 33.0458 42 22.0001 42C16.0266 42 2.00006 42 2.00006 42C2.00006 42 2.00006 27.0722 2.00006 22C2.00006 10.9543 10.9544 2 22.0001 2C33.0458 2 42.0001 10.9543 42.0001 22Z"
-                fill="#F3F3F3"
-                stroke="#CFDD51"
-                stroke-width="4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M12 16H30"
-                stroke="#0A323D"
-                stroke-width="4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M12 24H30"
-                stroke="#0A323D"
-                stroke-width="4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M12 32H22"
-                stroke="#0A323D"
-                stroke-width="4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
+            <svg width="42" height="28" viewBox="0 0 42 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 28V23.3333H42V28H0ZM0 16.3333V11.6667H42V16.3333H0ZM0 4.66667V0H42V4.66667H0Z" fill="#CFDD51"/>
             </svg>
           </div>
         </span>
@@ -196,7 +162,6 @@
 <style scoped>
 .toggler-icon {
   width: 30px;
-  height: 35px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

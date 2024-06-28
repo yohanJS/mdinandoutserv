@@ -93,7 +93,7 @@
               class="btn btn-lg rounded-pill btn-color btn-text-color fw-bold mt-5 mb-4"
               style="width: 250px"
             >
-              Submit
+              Submit Form
             </button>
           </div>
           <div v-else class="col-12 text-center">
@@ -231,8 +231,8 @@ export default {
       try {
         const response = await axios
           .post(
-            //"https://localhost:7165/api/RequestQuote",
-            "https://www.bloggyapi.com/api/RequestQuote",
+            "https://localhost:7165/api/RequestQuote",
+            //"https://www.bloggyapi.com/api/RequestQuote",
             {
                 name: this.name,
                 phoneNumber: this.phoneNumber,

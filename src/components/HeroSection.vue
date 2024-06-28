@@ -19,8 +19,8 @@
               >
                 <rect width="100" height="3" fill="#cfdd51" />
               </svg>
-              Welcome to <strong class="text-color">MD</strong> IN & OUT
-              <strong class="text-color">SERVICES</strong>
+              Welcome to MD <strong class="text-color">IN & OUT</strong>
+              SERVICES
             </p>
             <h1 class="display-1 fw-bold">MAKING YOUR DREAM HOME TRUE</h1>
             <button class="btn btn-lg rounded-pill btn-color btn-text-color fw-bold mt-5" style="width: 250px;" onclick="window.location.href='#getQuote'">Get a free quote</button>
