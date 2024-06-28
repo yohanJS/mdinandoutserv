@@ -1,8 +1,8 @@
 <template>
   <div id="about" class="container section-bg">
-    <div class="min-vh-100 row d-flex align-items-center text-center">
+    <div class="min-vh-100 row d-flex align-items-center">
       <div class="col-12 text-color">
-        <p class="text-uppercase pb-1 m-0">
+        <p class="text-uppercase pb-1 m-0 text-center">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 100 3" width="20" height="5">
             <rect width="100" height="6" fill="#cfdd51" />
           </svg>
