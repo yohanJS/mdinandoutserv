@@ -1,7 +1,7 @@
   <template>
     <div id="services" class="container split-bg pt-5 pb-5" v-if="isMobile">
       <div class="col-12 text-center">
-        <p class="text-uppercase pb-3 line">
+        <p class="text-uppercase pb-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 1 100 3"
