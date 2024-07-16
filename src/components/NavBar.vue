@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
   <!--Make the navbar fixed-top on scroll-->
   <!--MOBILE VERSION-->
@@ -186,4 +184,33 @@
   border: none !important;
   box-shadow: none !important;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
 </style>
+
+<script>
+export default {
+  mounted() {
+    window.addEventListener('scroll', this.makeNavBarSticky);
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.makeNavBarSticky);
+  },
+  methods: {
+    makeNavBarSticky() {
+      const navbar = document.getElementById("home");
+      const sticky = 64;
+        if (window.scrollY >= sticky) {
+          navbar.classList.add("position-sticky","sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+    }
+  }
+}
+</script>
