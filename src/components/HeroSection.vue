@@ -28,8 +28,8 @@
             </div>
             <div class="row">
               <div class="col-12 mt-5">
-                <button id="freeQuoteBtn" class="btn btn-lg rounded-pill btn-color btn-text-color fw-bold mr-r" style="width: 250px;" onclick="window.location.href='#getQuote'">Get a free quote</button>
-                <button id="servicesBtn" class="btn btn-lg rounded-pill glass-button btn-border-color text-white fw-bold" style="width: 250px;" onclick="window.location.href='#services'">Browse all services</button>
+                <button id="freeQuoteBtn" class="btn btn-lg rounded-pill btn-color btn-text-color fw-bold mt-3" style="width: 250px;" onclick="window.location.href='#getQuote'">Get a free quote</button>
+                <button id="servicesBtn" class="btn btn-lg rounded-pill glass-button btn-border-color text-white fw-bold mt-3" style="width: 250px;" onclick="window.location.href='#services'">Browse all services</button>
               </div>
             </div>
            </div>
