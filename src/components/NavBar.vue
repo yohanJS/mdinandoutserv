@@ -53,7 +53,9 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#">Projects</a>
             </li>
             <!-- <li class="nav-item dropdown">
               <a
@@ -229,7 +231,7 @@ export default {
     const isMobile = ref(false);
 
     onMounted(() => {
-      isMobile.value = window.innerWidth <= 768;
+      isMobile.value = window.innerWidth <= 480;
 
       window.addEventListener('resize', updateIsMobile);
       window.addEventListener('scroll', makeNavBarSticky);
