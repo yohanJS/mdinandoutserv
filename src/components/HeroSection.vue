@@ -7,7 +7,7 @@
           </video> -->
           <img src="../assets/bg-forNow.jpg" alt="Background Image" class="img-fluid" style="object-fit: cover; width: 100%; height: 100vh;">
 
-          <div class="row text-center text-white m-0 pb-5" style="position: absolute; top: 0; left: 0; width: 100%; height: 100vh; z-index: 1;">
+          <div class="row text-center text-white m-0 pb-5" style="position: absolute; top: 0; left: 0; width: 100%; height: 75vh; z-index: 1;">
             <div id="section" class="col-12">
               <p id="welcomeMsg" class="mt-5 text-uppercase">
               <svg
