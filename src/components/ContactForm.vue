@@ -1,5 +1,5 @@
 <template>
-  <div class="container split-bg pt-5 pb-5">
+  <div class="container split-bg pt-5 pb-5" id="getQuoteSection">
     <div class="row d-flex justify-content-center">
       <div class="col-12 col-md-6 text-center">
         <p class="text-uppercase pb-3">

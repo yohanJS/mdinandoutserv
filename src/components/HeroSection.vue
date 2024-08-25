@@ -24,7 +24,7 @@
           </div>
           <div class="col-12">
             <button id="freeQuoteBtn" class="btn btn-lg rounded-pill btn-color btn-text-color fw-bold"
-              style="width: 250px;" onclick="window.location.href='#getQuote'">Get a free quote</button>
+              style="width: 250px;" onclick="window.location.href='#getQuoteSection'">Get a free quote</button>
             <button id="servicesBtn" class="btn btn-lg rounded-pill glass-button btn-border-color text-white fw-bold"
               style="width: 250px;" onclick="window.location.href='#services'">Browse all services</button>
           </div>
