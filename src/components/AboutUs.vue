@@ -1,3 +1,13 @@
+<script>
+
+import Footer from './Footer.vue'
+export default {
+  components: {
+    Footer
+  }
+}
+</script>
+
 <template>
   <div id="about" class="container section-bg">
     <div class="min-vh-100 row d-flex align-items-center">
@@ -37,11 +47,11 @@
         <!-- Modal -->
         <div class="modal fade" style="z-index: 99999;" id="staticBackdrop" data-bs-backdrop="static"
           data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
             <div class="modal-content bg-color text-white">
               <div class="modal-header border-0">
                 <h1 class="modal-title fs-5" id="staticBackdropLabel">About Us</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body mt-3">
                 <p> One of our family hobbies is spending time in our yard, creating beautiful memories within the
@@ -72,10 +82,11 @@
                 <p>
                   Come in and learn about all of our services; we're here to help!
                 </p>
-              </div>
-              <div class="modal-footer">
-                <button id="freeQuoteBtn" class="btn btn-lg rounded-pill btn-color btn-text-color fw-bold" style="width: 200px;" onclick="window.location.href='#getQuote'">Get a free quote</button>
-                <button id="servicesBtn" class="btn btn-lg rounded-pill glass-button btn-border-color text-white fw-bold" style="width: 200px;" onclick="window.location.href='#services'">All services</button>
+                <div class="col-12 col-md-6 text-center mt-5">
+                  <button id="freeQuoteBtn" class="btn btn-lg rounded-pill btn-color btn-text-color fw-bold mb-2" style="width: 200px;" onclick="window.location.href='#getQuote'">Get a free quote</button>
+                  <button id="servicesBtn" class="btn btn-lg rounded-pill glass-button btn-border-color text-white fw-bold" style="width: 200px;" onclick="window.location.href='#services'">All services</button>
+                </div>
+                <Footer />
               </div>
             </div>
           </div>
