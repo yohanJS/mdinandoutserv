@@ -3,7 +3,7 @@
   <nav id="home" class="navbar bg-color p-0" v-if="isMobile">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <svg width="161" height="86" viewBox="0 0 161 86" fill="none" xmlns="http://www.w3.org/2000/svg"
+        <svg width="130" height="86" viewBox="0 0 161 86" fill="none" xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink">
           <path d="M0 0H160.911V86H0V0Z" fill="url(#pattern0_464_643)" />
           <path d="M0 0H160.911V86H0V0Z" fill="url(#pattern1_464_643)" />
@@ -23,7 +23,7 @@
         aria-controls="offcanvasNavbar">
         <span>
           <div class="toggler-icon">
-            <svg width="42" height="28" viewBox="0 0 42 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="30" height="28" viewBox="0 0 42 28" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 28V23.3333H42V28H0ZM0 16.3333V11.6667H42V16.3333H0ZM0 4.66667V0H42V4.66667H0Z"
                 fill="#CFDD51" />
             </svg>
@@ -35,7 +35,7 @@
           <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
             <svg width="161" height="86" viewBox="0 0 242 123" fill="none" xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink">
-              <rect x="-2" width="243.43" height="122.98" fill="url(#pattern0_561_384)" />
+              <rect x="-2" width="180" height="100" fill="url(#pattern0_561_384)" />
               <defs>
                 <pattern id="pattern0_561_384" patternContentUnits="objectBoundingBox" width="1" height="1">
                   <use xlink:href="#image0_561_384" transform="scale(0.000451467 0.000893655)" />
