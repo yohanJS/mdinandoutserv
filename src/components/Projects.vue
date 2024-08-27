@@ -19,7 +19,7 @@
     <div class="col-12 mt-5">
       <div class="col-12 text-center">
           <button type="button" class="btn btn-lg rounded-pill glass-button btn-border-color text-white fw-bold mt-3" data-bs-toggle="modal"
-          style="width: 250px;" data-bs-target="#staticAllProjectsModalTarget">Browse all services
+          style="width: 250px;" data-bs-target="#staticAllProjectsModalTarget">Browse all projects
         </button>
       </div>
       <!-- All Services Modal -->
