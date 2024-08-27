@@ -16,6 +16,29 @@
     <div class="col-12 text-center">
       <h1 class="text-white display-1">Take a look at our projects</h1>
     </div>
+    <div class="col-12 mt-5">
+      <div class="col-12 text-center">
+          <button type="button" class="btn btn-lg rounded-pill glass-button btn-border-color text-white fw-bold mt-3" data-bs-toggle="modal"
+          style="width: 250px;" data-bs-target="#staticAllProjectsModalTarget">Browse all services
+        </button>
+      </div>
+      <!-- All Services Modal -->
+        <!-- Modal -->
+        <div class="modal fade" style="z-index: 99999;" id="staticAllProjectsModalTarget" data-bs-backdrop="static"
+          data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticAllProjectsModal" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+            <div class="modal-content bg-color text-white">
+              <div class="modal-header border-0">
+                <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body mt-3">
+                <Carousel/>
+                <Footer />
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
     <div class="col-12 col-md-4 text-center mt-5" v-if="isMobile">
       <div class="image-container">
         <img
@@ -61,6 +84,8 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
+import Carousel from './Carousel.vue'
+import Footer from './Footer.vue'
 
 const isMobile = ref(false);
 

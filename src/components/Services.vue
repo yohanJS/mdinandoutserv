@@ -54,7 +54,7 @@
         </p>
       </div>
       <div class="col-12 col-md-4 text-center mt-5">
-        <img src="../assets/card-3.png" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
+        <img src="../assets/card-9.png" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
         <h3 class="text-start m-3">Permit
         </h3>
         <p class="text-start m-3">

@@ -7,7 +7,7 @@
       <strong class="text-white"> OUR SERVICES</strong>
     </p>
   </div>
-  <div id="services" class="container split-bg pt-5 pb-5" v-if="isMobile">
+  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
     <div class="col-12 col-md-4 text-center text-dark mt-5">
       <img src="../assets/card-1.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
       <h3 class="text-start m-3">Aluminum Pergola
@@ -17,7 +17,7 @@
       </p>
     </div>
   </div>
-  <div id="services" class="container split-bg pt-5 pb-5" v-if="isMobile">
+  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
     <div class="col-12 col-md-4 text-center text-dark mt-5">
       <img src="../assets/card-2.png" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
       <h3 class="text-start m-3">Outdoor Kitchen
@@ -27,7 +27,7 @@
       </p>
     </div>
   </div>
-  <div id="services" class="container split-bg pt-5 pb-5" v-if="isMobile">
+  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
     <div class="col-12 col-md-4 text-center text-dark mt-5">
         <img src="../assets/card-3.png" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
         <h3 class="text-start m-3">Patio Screen Enclosure
@@ -37,7 +37,7 @@
         </p>
       </div>
   </div>
-  <div id="services" class="container split-bg pt-5 pb-5" v-if="isMobile">
+  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
     <div class="col-12 col-md-4 text-center text-dark mt-5">
         <img src="../assets/card-4.png" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
         <h3 class="text-start m-3">Screen Repair
@@ -47,7 +47,7 @@
         </p>
       </div>
   </div>
-  <div id="services" class="container split-bg pt-5 pb-5" v-if="isMobile">
+  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
     <div class="col-12 col-md-4 text-center text-dark mt-5">
       <img src="../assets/card-5.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
       <h3 class="text-start m-3">Motorize Screen
@@ -57,7 +57,7 @@
       </p>
     </div>
   </div>
-  <div id="services" class="container split-bg pt-5 pb-5" v-if="isMobile">
+  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
     <div class="col-12 col-md-4 text-center text-dark mt-5">
       <img src="../assets/card-6.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
       <h3 class="text-start m-3">Outdoor Tv Installation
@@ -67,7 +67,7 @@
       </p>
     </div>
   </div>
-  <div id="services" class="container split-bg pt-5 pb-5" v-if="isMobile">
+  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
     <div class="col-12 col-md-4 text-center text-dark mt-5">
       <img src="../assets/card-7.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
       <h3 class="text-start m-3">Fence
@@ -77,7 +77,7 @@
       </p>
     </div>
   </div>
-  <div id="services" class="container split-bg pt-5 pb-5" v-if="isMobile">
+  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
     <div class="col-12 col-md-4 text-center text-dark mt-5">
       <img src="../assets/card-8.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
       <h3 class="text-start m-3">Composite Deck
@@ -87,7 +87,7 @@
       </p>
     </div>
   </div>
-  <div id="services" class="container split-bg pt-5 pb-5" v-if="isMobile">
+  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
     <div class="col-12 col-md-4 text-center text-dark mt-5">
       <img src="../assets/card-9.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
       <h3 class="text-start m-3">Permit
@@ -97,7 +97,7 @@
       </p>
     </div>
   </div>
-  <div id="services" class="container split-bg pt-5 pb-5" v-if="isMobile">
+  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
     <div class="col-12 col-md-4 text-center text-dark mt-5">
       <img src="../assets/card-10.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
       <h3 class="text-start m-3">Aluminum Patio Cover
@@ -107,7 +107,7 @@
       </p>
     </div>
   </div>
-  <div id="services" class="container split-bg pt-5 pb-5" v-if="isMobile">
+  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
     <div class="col-12 col-md-4 text-center text-dark mt-5">
       <img src="../assets/card-11.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
       <h3 class="text-start m-3">Terrace
@@ -117,7 +117,7 @@
       </p>
     </div>
   </div>
-  <div id="services" class="container split-bg pt-5 pb-5" v-if="isMobile">
+  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
     <div class="col-12 col-md-4 text-center text-dark mt-5">
       <img src="../assets/card-12.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
       <h3 class="text-start m-3">3D RENDERS
