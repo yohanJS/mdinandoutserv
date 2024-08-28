@@ -1,10 +1,3 @@
-<script setup>
-
-var currentYear = new Date().getFullYear();
-
-
-</script>
-
 <template>
   <div class="container pt-5 bg-color">
     <div class="row d-flex justify-content-center p-3">
@@ -115,11 +108,11 @@ var currentYear = new Date().getFullYear();
       <div class="col-12 mt-4 mb-2">
         <h3 class="text-white">Main Pages</h3>
         <ul class="p-0">
-          <li><a href="#home" class="text-decoration-none txt-color">HOME</a></li>
-          <li><a href="#about" class="text-decoration-none txt-color">ABOUT</a></li>
-          <li><a href="#services" class="text-decoration-none txt-color">SERVICES</a></li>
-          <li><a href="#projects" class="text-decoration-none txt-color">PROJECTS</a></li>
-          <li><a href="#getQuote" class="text-decoration-none txt-color">GET A QUOTE</a></li>
+          <li><a href="#" class="text-decoration-none txt-color" @click="closeModal()">HOME</a></li>
+          <li><a href="#about" class="text-decoration-none txt-color" @click="closeModal()">ABOUT</a></li>
+          <li><a href="#services" class="text-decoration-none txt-color" @click="closeModal()">SERVICES</a></li>
+          <li><a href="#projects" class="text-decoration-none txt-color" @click="closeModal()">PROJECTS</a></li>
+          <li><a href="#getQuoteSection" class="text-decoration-none txt-color" @click="closeModal()">GET A QUOTE</a></li>
         </ul>
       </div>
       <hr class="line-color" />
@@ -129,6 +122,39 @@ var currentYear = new Date().getFullYear();
     </div>
   </div>
 </template>
+
+<script setup>
+import { Modal } from 'bootstrap';
+
+function closeModal() {
+
+  let staticBackdropModal = document.getElementById("staticBackdropModal");
+  let staticAllProjectsModalTarget = document.getElementById("staticAllProjectsModalTarget");
+  let staticAllServicesModalTarget = document.getElementById("staticAllServicesModalTarget");
+
+      if (staticBackdropModal) {
+        let modalInstance = Modal.getInstance(staticBackdropModal);
+        if (modalInstance) {
+          modalInstance.hide();
+        }
+      }
+      if (staticAllProjectsModalTarget) {
+        let modalInstance2 = Modal.getInstance(staticAllProjectsModalTarget);
+        if (modalInstance2) {
+          modalInstance2.hide();
+        }
+      }
+      if (staticAllServicesModalTarget) {
+        let modalInstance3 = Modal.getInstance(staticAllServicesModalTarget);
+        if (modalInstance3) {
+          modalInstance3.hide();
+        }
+      }
+}
+
+var currentYear = new Date().getFullYear();
+
+</script>
 
 <style scoped>
 .bg-color {

@@ -3,7 +3,6 @@ import LetsTalk from './components/LetsTalk.vue';
 import NavBar from './components/NavBar.vue';
 import HeroSection from './components/HeroSection.vue';
 import AboutUs from './components/AboutUs.vue';
-import Carousel from './components/Carousel.vue'
 import Services from './components/Services.vue';
 import ContactForm from './components/ContactForm.vue';
 import Projects from './components/Projects.vue';

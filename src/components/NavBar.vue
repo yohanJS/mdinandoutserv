@@ -3,7 +3,7 @@
   <nav id="home" class="navbar bg-color p-0" v-if="isMobile">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <svg width="110" height="86" viewBox="0 0 161 86" fill="none" xmlns="http://www.w3.org/2000/svg"
+        <svg width="100" height="86" viewBox="0 0 161 86" fill="none" xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink">
           <path d="M0 0H160.911V86H0V0Z" fill="url(#pattern0_464_643)" />
           <path d="M0 0H160.911V86H0V0Z" fill="url(#pattern1_464_643)" />
@@ -23,7 +23,7 @@
         aria-controls="offcanvasNavbar">
         <span>
           <div class="toggler-icon">
-            <svg width="25" height="28" viewBox="0 0 42 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="20" height="28" viewBox="0 0 42 28" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 28V23.3333H42V28H0ZM0 16.3333V11.6667H42V16.3333H0ZM0 4.66667V0H42V4.66667H0Z"
                 fill="#CFDD51" />
             </svg>
