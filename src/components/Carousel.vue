@@ -3,7 +3,7 @@
       <div class="carousel" :style="{ transform: `translateX(-${carousel.currentSlide * 100}%)` }">
         <div class="carousel-slide" v-for="(slide, slideIndex) in carousel.slides" :key="slideIndex">
           <div class="image-container">
-            <img :src="slide.path" alt="Slide image" class="slide-path" />
+            <img :src="slide.path" alt="Slide image" class="slide-path light-shadow" />
           </div>
           <div class="text">{{ slide.text }}</div>
         </div>
@@ -167,5 +167,10 @@
 
 .carousel-indicators .active {
     background-color: #ffab00;
+}
+
+.light-shadow {
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    border-radius: 2%;
 }
 </style>
