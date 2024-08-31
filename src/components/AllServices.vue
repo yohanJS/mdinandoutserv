@@ -7,124 +7,137 @@
       <strong class="text-white"> OUR SERVICES</strong>
     </p>
   </div>
-  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
-    <div class="col-12 col-md-4 text-center text-dark mt-5">
-      <img src="../assets/card-1.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
-      <h3 class="text-start m-3">Aluminum Pergola
-      </h3>
-      <p class="text-start m-3">
-        Elevate your outdoor space with a sophisticated Aluminum Pergola that provides the perfect setting for cherished family moments and relaxation.
-      </p>
+  <div v-if="isMobile">
+    <div class="container split-bg pt-5 pb-5">
+      <div class="col-12 col-md-4 text-center text-dark mt-5">
+        <img src="../assets/card-1.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
+        <h3 class="text-start m-3">Aluminum Pergola
+        </h3>
+        <p class="text-start m-3">
+          Elevate your outdoor space with a sophisticated Aluminum Pergola that provides the perfect setting for
+          cherished family moments and relaxation.
+        </p>
+      </div>
     </div>
-  </div>
-  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
-    <div class="col-12 col-md-4 text-center text-dark mt-5">
-      <img src="../assets/card-2.png" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
-      <h3 class="text-start m-3">Outdoor Kitchen
-      </h3>
-      <p class="text-start m-3">
-        We provide everything needed to prepare and serve your favorite meals outdoors, including ovens, refrigerators, and top-notch barbecues.
-      </p>
+    <div class="container split-bg pt-5 pb-5">
+      <div class="col-12 col-md-4 text-center text-dark mt-5">
+        <img src="../assets/card-2.png" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
+        <h3 class="text-start m-3">Outdoor Kitchen
+        </h3>
+        <p class="text-start m-3">
+          We provide everything needed to prepare and serve your favorite meals outdoors, including ovens,
+          refrigerators, and top-notch barbecues.
+        </p>
+      </div>
     </div>
-  </div>
-  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
-    <div class="col-12 col-md-4 text-center text-dark mt-5">
+    <div class="container split-bg pt-5 pb-5">
+      <div class="col-12 col-md-4 text-center text-dark mt-5">
         <img src="../assets/card-3.png" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
         <h3 class="text-start m-3">Patio Screen Enclosure
         </h3>
         <p class="text-start m-3">
-          This is more than just a home improvement project; it enhances your lifestyle. Your new patio screen enclosure will become the focal point for family events.
+          This is more than just a home improvement project; it enhances your lifestyle. Your new patio screen enclosure
+          will become the focal point for family events.
         </p>
       </div>
-  </div>
-  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
-    <div class="col-12 col-md-4 text-center text-dark mt-5">
+    </div>
+    <div class="container split-bg pt-5 pb-5">
+      <div class="col-12 col-md-4 text-center text-dark mt-5">
         <img src="../assets/card-4.png" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
         <h3 class="text-start m-3">Screen Repair
         </h3>
         <p class="text-start m-3">
-          Our knowledgeable team can repair, replace, re-screen, and even craft custom screens and framing to suit your specific needs.
+          Our knowledgeable team can repair, replace, re-screen, and even craft custom screens and framing to suit your
+          specific needs.
         </p>
       </div>
-  </div>
-  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
-    <div class="col-12 col-md-4 text-center text-dark mt-5">
-      <img src="../assets/card-5.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
-      <h3 class="text-start m-3">Motorize Screen
-      </h3>
-      <p class="text-start m-3">
-        For protection against UV rays, pests, weather, and other elements, motorized retractable screens are the ideal solution. Enjoy the outdoors in comfort.
-      </p>
     </div>
-  </div>
-  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
-    <div class="col-12 col-md-4 text-center text-dark mt-5">
-      <img src="../assets/card-6.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
-      <h3 class="text-start m-3">Outdoor Tv Installation
-      </h3>
-      <p class="text-start m-3">
-        Patios and terraces are areas that are frequently forgotten.Transform your backyard into an outdoor entertainment space to maximize its potential.
-      </p>
+    <div class="container split-bg pt-5 pb-5">
+      <div class="col-12 col-md-4 text-center text-dark mt-5">
+        <img src="../assets/card-5.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
+        <h3 class="text-start m-3">Motorize Screen
+        </h3>
+        <p class="text-start m-3">
+          For protection against UV rays, pests, weather, and other elements, motorized retractable screens are the
+          ideal solution. Enjoy the outdoors in comfort.
+        </p>
+      </div>
     </div>
-  </div>
-  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
-    <div class="col-12 col-md-4 text-center text-dark mt-5">
-      <img src="../assets/card-7.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
-      <h3 class="text-start m-3">Fence
-      </h3>
-      <p class="text-start m-3">
-        Enhance the appearance and individuality of your home with a stylish fence, as your exterior is the first impression visitors will have of your home.
-      </p>
+    <div class="container split-bg pt-5 pb-5">
+      <div class="col-12 col-md-4 text-center text-dark mt-5">
+        <img src="../assets/card-6.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
+        <h3 class="text-start m-3">Outdoor Tv Installation
+        </h3>
+        <p class="text-start m-3">
+          Patios and terraces are areas that are frequently forgotten.Transform your backyard into an outdoor
+          entertainment space to maximize its potential.
+        </p>
+      </div>
     </div>
-  </div>
-  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
-    <div class="col-12 col-md-4 text-center text-dark mt-5">
-      <img src="../assets/card-8.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
-      <h3 class="text-start m-3">Composite Deck
-      </h3>
-      <p class="text-start m-3">
-        Upgrade your outdoor area for dining, hosting guests, or simply unwinding under the sun. We are excited to make your Composite Deck vision a reality.
-      </p>
+    <div class="container split-bg pt-5 pb-5">
+      <div class="col-12 col-md-4 text-center text-dark mt-5">
+        <img src="../assets/card-7.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
+        <h3 class="text-start m-3">Fence
+        </h3>
+        <p class="text-start m-3">
+          Enhance the appearance and individuality of your home with a stylish fence, as your exterior is the first
+          impression visitors will have of your home.
+        </p>
+      </div>
     </div>
-  </div>
-  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
-    <div class="col-12 col-md-4 text-center text-dark mt-5">
-      <img src="../assets/card-9.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
-      <h3 class="text-start m-3">Permit
-      </h3>
-      <p class="text-start m-3">
-        Facilitates procedures for new construction and legalization.
-      </p>
+    <div class="container split-bg pt-5 pb-5">
+      <div class="col-12 col-md-4 text-center text-dark mt-5">
+        <img src="../assets/card-8.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
+        <h3 class="text-start m-3">Composite Deck
+        </h3>
+        <p class="text-start m-3">
+          Upgrade your outdoor area for dining, hosting guests, or simply unwinding under the sun. We are excited to
+          make your Composite Deck vision a reality.
+        </p>
+      </div>
     </div>
-  </div>
-  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
-    <div class="col-12 col-md-4 text-center text-dark mt-5">
-      <img src="../assets/card-10.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
-      <h3 class="text-start m-3">Aluminum Patio Cover
-      </h3>
-      <p class="text-start m-3">
-        We offer patio cover designs to fit your lifestyle and needs. Enjoy your outdoor living space all year round, no matter the weather.
-      </p>
+    <div class="container split-bg pt-5 pb-5">
+      <div class="col-12 col-md-4 text-center text-dark mt-5">
+        <img src="../assets/card-9.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
+        <h3 class="text-start m-3">Permit
+        </h3>
+        <p class="text-start m-3">
+          Facilitates procedures for new construction and legalization.
+        </p>
+      </div>
     </div>
-  </div>
-  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
-    <div class="col-12 col-md-4 text-center text-dark mt-5">
-      <img src="../assets/card-11.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
-      <h3 class="text-start m-3">Terrace
-      </h3>
-      <p class="text-start m-3">
-        MD IN & OUT SERVICES is committed to designing beautiful, modern terraces that match your lifestyle. Create a gorgeous and functional outdoor living space.
-      </p>
+    <div class="container split-bg pt-5 pb-5">
+      <div class="col-12 col-md-4 text-center text-dark mt-5">
+        <img src="../assets/card-10.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
+        <h3 class="text-start m-3">Aluminum Patio Cover
+        </h3>
+        <p class="text-start m-3">
+          We offer patio cover designs to fit your lifestyle and needs. Enjoy your outdoor living space all year round,
+          no matter the weather.
+        </p>
+      </div>
     </div>
-  </div>
-  <div  class="container split-bg pt-5 pb-5" v-if="isMobile">
-    <div class="col-12 col-md-4 text-center text-dark mt-5">
-      <img src="../assets/card-12.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
-      <h3 class="text-start m-3">3D RENDERS
-      </h3>
-      <p class="text-start m-3">
-        3D RENDERS allow you to bring your dream spaces before it is built. We know we can make your project successful.
-      </p>
+    <div class="container split-bg pt-5 pb-5">
+      <div class="col-12 col-md-4 text-center text-dark mt-5">
+        <img src="../assets/card-11.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
+        <h3 class="text-start m-3">Terrace
+        </h3>
+        <p class="text-start m-3">
+          MD IN & OUT SERVICES is committed to designing beautiful, modern terraces that match your lifestyle. Create a
+          gorgeous and functional outdoor living space.
+        </p>
+      </div>
+    </div>
+    <div class="container split-bg pt-5 pb-5">
+      <div class="col-12 col-md-4 text-center text-dark mt-5">
+        <img src="../assets/card-12.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
+        <h3 class="text-start m-3">3D RENDERS
+        </h3>
+        <p class="text-start m-3">
+          3D RENDERS allow you to bring your dream spaces before it is built. We know we can make your project
+          successful.
+        </p>
+      </div>
     </div>
   </div>
 </template>
