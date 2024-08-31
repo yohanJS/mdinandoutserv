@@ -79,6 +79,7 @@ onMounted(() => {
 window.addEventListener('resize', () => {
   isMobile.value = window.innerWidth <= 768;
 });
+
 </script>
 
 <style scoped>

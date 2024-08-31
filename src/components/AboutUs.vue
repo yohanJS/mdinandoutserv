@@ -17,15 +17,8 @@
           needs of your home. Our mission is to help our clients bring their dream spaces to life,
           allowing them to transform their homes into something truly extraordinary.
         </p>
-        <!-- <p class="p-3">
-        What are you looking for? Is it the same thing we once needed?
-      </p>
-      <p class="p-3">
-        Do not wait any longer. 
-        Come in and learn about all of our services; we're here to help!
-      </p> -->
         <!-- Button trigger modal -->
-        <div class="col-12 text-center">
+        <div class="col-12 col-md-6 text-center" v-if="isMobile">
           <a type="button" class="text-color text-decoration-none" data-bs-toggle="modal"
             data-bs-target="#staticBackdropModal">
             Read more
@@ -36,6 +29,36 @@
                 d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
             </svg>
           </a>
+        </div>
+        <div class="p-3" v-else>
+          <p> One of our family hobbies is spending time in our yard, creating beautiful memories within the
+            comfort of our home.
+            This is why we are committed to assisting every customer in personalizing their spaces, both
+            indoors
+            and outdoors,
+            to suit their budget. Our goal is to provide a suitable and inviting atmosphere where families can
+            enjoy quality time together.
+          </p>
+          <p>
+            When my wife and I were searching for our dream home, one of our priorities was having a patio
+            with a
+            pergola where our children could play.
+            Although  we found the ideal home, there was one thing missing in the backyard that would make
+            family
+            time more enjoyable: a roofed space. 
+            It wasn't until we built a pergola that we starting enjoying our patio and home even more.
+          </p>
+          <p>
+            Family gatherings no longer require a purposeful occasion. For us, every day is a celebration. All
+            we
+            need is some nice BBQ and good company.
+            This is what we love about MD In & Out Services; our experience can be yours too.
+          </p>
+          <p>What are you looking for? Is it the same thing we once needed? Do not wait any longer.
+          </p>
+          <p>
+            Come in and learn about all of our services; we're here to help!
+          </p>
         </div>
         <!-- Modal -->
         <div class="modal fade" style="z-index: 99999;" id="staticBackdropModal" data-bs-backdrop="static"
@@ -123,36 +146,48 @@
 }
 </style>
 
-<script>
-import Footer from './Footer.vue'
+<script setup>
+import { ref, onMounted, onBeforeUnmount } from 'vue';
 import { Modal } from 'bootstrap';
+import Footer from './Footer.vue';
 
-export default {
-  components: {
-    Footer
-  },
-  methods: {
-    goToContactForm() {
-      window.location.href = '#getQuoteSection';
-      let staticBackdropModal = document.getElementById("staticBackdropModal");
-      if (staticBackdropModal) {
-        let modalInstance = Modal.getInstance(staticBackdropModal);
-        if (modalInstance) {
-          modalInstance.hide();
-        }
-      }
-    },
-    goToServices() {
-      window.location.href='#services';
-      let staticBackdropModal = document.getElementById("staticBackdropModal");
-      if (staticBackdropModal) {
-        let modalInstance = Modal.getInstance(staticBackdropModal);
-        if (modalInstance) {
-          modalInstance.hide();
-        }
-      }
+const isMobile = ref(false);
+
+// Methods
+const goToContactForm = () => {
+  window.location.href = '#getQuoteSection';
+  hideModal();
+};
+
+const goToServices = () => {
+  window.location.href = '#services';
+  hideModal();
+};
+
+const hideModal = () => {
+  let staticBackdropModal = document.getElementById("staticBackdropModal");
+  if (staticBackdropModal) {
+    let modalInstance = Modal.getInstance(staticBackdropModal);
+    if (modalInstance) {
+      modalInstance.hide();
     }
   }
-}
+};
+
+// Lifecycle hooks
+onMounted(() => {
+  isMobile.value = window.innerWidth <= 768;
+
+  const handleResize = () => {
+    isMobile.value = window.innerWidth <= 768;
+  };
+
+  window.addEventListener('resize', handleResize);
+
+  // Clean up the event listener on unmount
+  onBeforeUnmount(() => {
+    window.removeEventListener('resize', handleResize);
+  });
+});
 
 </script>

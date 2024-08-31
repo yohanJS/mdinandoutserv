@@ -25,7 +25,7 @@
       </div>
       <div class="row d-flex justify-content-center">
         <form
-          class="col-12 col-md-6 mt-5 border border-1 shadow-lg rounded-5 p-3 bg-white"
+          class="col-12 col-md-6 mt-5 border border-1 shadow-lg rounded-2 p-3 bg-white"
           id="getQuote"
           v-on:submit.prevent="sendEmailForm"
         >
