@@ -3,7 +3,7 @@
   <nav id="home" class="navbar bg-color p-0" v-if="isMobile">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <svg width="100" height="86" viewBox="0 0 161 86" fill="none" xmlns="http://www.w3.org/2000/svg"
+        <svg width="100" height="65" viewBox="0 0 161 86" fill="none" xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink">
           <path d="M0 0H160.911V86H0V0Z" fill="url(#pattern0_464_643)" />
           <path d="M0 0H160.911V86H0V0Z" fill="url(#pattern1_464_643)" />
