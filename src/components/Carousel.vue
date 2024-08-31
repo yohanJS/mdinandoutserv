@@ -103,7 +103,7 @@
     background-color: #0a323d;
     color: white;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.1);
 }
 
 .carousel {
