@@ -114,7 +114,7 @@
 .carousel-slide {
     min-width: 100%;
     box-sizing: border-box;
-    padding: 40px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,10 +131,10 @@
 }
 
 .carousel-controls {
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 0;
-    right: 0;
+    right: 0; */
     display: flex;
     justify-content: space-between;
     transform: translateY(-50%);
