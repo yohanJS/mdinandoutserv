@@ -4,7 +4,10 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 1 100 3" width="20" height="5">
         <rect width="100" height="3" fill="#cfdd51" />
       </svg>
-      <strong class="text-white"> OUR SERVICES</strong>
+      <strong class="text-white"> OUR SERVICES </strong>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 100 3" width="20" height="5">
+        <rect width="100" height="6" fill="#cfdd51" />
+      </svg>
     </p>
   </div>
   <div v-if="isMobile">

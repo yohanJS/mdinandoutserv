@@ -7,8 +7,8 @@
         </svg>
         <strong class="text-white"> OUR PROJECTS </strong>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 100 3" width="20" height="5">
-            <rect width="100" height="6" fill="#cfdd51" />
-          </svg>
+          <rect width="100" height="6" fill="#cfdd51" />
+        </svg>
       </p>
     </div>
     <div class="col-12 text-center">
@@ -36,7 +36,10 @@
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 1 100 3" width="20" height="5">
                     <rect width="100" height="3" fill="#cfdd51" />
                   </svg>
-                  <strong class="text-white"> OUR PROJECTS</strong>
+                  <strong class="text-white"> OUR PROJECTS </strong>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 100 3" width="20" height="5">
+                    <rect width="100" height="6" fill="#cfdd51" />
+                  </svg>
                 </p>
               </div>
               <Carousel />
@@ -83,8 +86,8 @@
         </svg>
         <strong class="text-color"> OUR PROJECTS </strong>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 100 3" width="20" height="5">
-            <rect width="100" height="6" fill="#cfdd51" />
-          </svg>
+          <rect width="100" height="6" fill="#cfdd51" />
+        </svg>
       </p>
     </div>
     <div class="col-12 text-center">
