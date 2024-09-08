@@ -5,7 +5,10 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 1 100 3" width="20" height="5">
           <rect width="100" height="3" fill="#cfdd51" />
         </svg>
-        <strong class="text-white"> OUR PROJECTS</strong>
+        <strong class="text-white"> OUR PROJECTS </strong>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 100 3" width="20" height="5">
+            <rect width="100" height="6" fill="#cfdd51" />
+          </svg>
       </p>
     </div>
     <div class="col-12 text-center">
@@ -18,7 +21,7 @@
           projects
         </button>
       </div>
-      <!-- All Services Modal -->
+      <!-- All Projects Modal -->
       <!-- Modal -->
       <div class="modal fade" style="z-index: 99999;" id="staticAllProjectsModalTarget" data-bs-backdrop="static"
         data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticAllProjectsModal" aria-hidden="true">
@@ -72,6 +75,23 @@
       </div>
     </div>
   </div>
+  <div class="my-5" v-else>
+    <div class="col-12 text-center">
+      <p class="text-uppercase pb-3 line">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 1 100 3" width="20" height="5">
+          <rect width="100" height="3" fill="#cfdd51" />
+        </svg>
+        <strong class="text-color"> OUR PROJECTS </strong>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 100 3" width="20" height="5">
+            <rect width="100" height="6" fill="#cfdd51" />
+          </svg>
+      </p>
+    </div>
+    <div class="col-12 text-center">
+      <h1 class="display-1">Take a look at our projects</h1>
+    </div>
+    <Carousel />
+  </div>
 </template>
 
 <script setup>
@@ -103,6 +123,10 @@ window.addEventListener("resize", () => {
   color: #1c434d;
 }
 
+.text-color {
+  color: #0A323D;
+}
+
 .glass-button {
   background-color: rgba(255,
       255,
@@ -115,10 +139,6 @@ window.addEventListener("resize", () => {
 
 .btn-border-color {
   border: 1px solid #cfdd51;
-}
-
-.text-color {
-  color: #cfdd51;
 }
 
 .image-container {
