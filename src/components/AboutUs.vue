@@ -19,7 +19,7 @@
         </p>
         <!-- Button trigger modal -->
         <div class="col-12 col-md-6 text-center" v-if="isMobile">
-          <a type="button" class="text-color text-decoration-none" data-bs-toggle="modal"
+          <a type="button" class="btn-text-color text-decoration-none" data-bs-toggle="modal"
             data-bs-target="#staticBackdropModal">
             Read more
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle"
@@ -65,11 +65,21 @@
           data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
             <div class="modal-content bg-color text-white">
-              <div class="modal-header border-0">
-                <h1 class="modal-title fs-5" id="staticBackdropModalLabel">About Us</h1>
-                <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+              <div class="modal-header border-0 p-1">
+                <CloseModalBtn></CloseModalBtn>
               </div>
               <div class="modal-body mt-3">
+                <div class="col-12 text-color mb-5">
+                  <p class="text-uppercase pb-1 m-0 text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 100 3" width="20" height="5">
+                      <rect width="100" height="6" fill="#cfdd51" />
+                    </svg>
+                    <strong class="text-white"> ABOUT US </strong>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 100 3" width="20" height="5">
+                      <rect width="100" height="6" fill="#cfdd51" />
+                    </svg>
+                  </p>
+                </div>
                 <p> One of our family hobbies is spending time in our yard, creating beautiful memories within the
                   comfort of our home.
                   This is why we are committed to assisting every customer in personalizing their spaces, both
@@ -116,6 +126,10 @@
 </template>
 
 <style scoped>
+.w-10 {
+  width: 10%;
+}
+
 .section-bg {
   background-color: #f5f5f5;
 }
@@ -150,6 +164,7 @@
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 import { Modal } from 'bootstrap';
 import Footer from './Footer.vue';
+import CloseModalBtn from './CloseModalBtn.vue'
 
 const isMobile = ref(false);
 
