@@ -77,7 +77,7 @@
       </div>
     </div>
   </div>
-  <div class="my-5" v-else>
+  <div class="my-5" id="projects" v-else>
     <div class="col-12 text-center">
       <p class="text-uppercase pb-3 line">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 1 100 3" width="20" height="5">

@@ -66,7 +66,7 @@
       </div>
     </div>
   </div>
-  <div class="container pt-5 mb-5 bg-color" v-else>
+  <div class="container pt-5 mb-5 bg-color" id="services" v-else>
     <div class="col-12 text-center">
       <p class="text-uppercase pb-3">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 1 100 3" width="20" height="5">
