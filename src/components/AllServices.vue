@@ -22,6 +22,8 @@
         </p>
       </div>
     </div>
+    <GetAFreeQuoteBtn />
+    <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
         <img src="../assets/card-2.png" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
@@ -34,6 +36,7 @@
       </div>
     </div>
     <GetAFreeQuoteBtn />
+    <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
         <img src="../assets/card-3.png" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
@@ -46,6 +49,7 @@
       </div>
     </div>
     <GetAFreeQuoteBtn />
+    <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
         <img src="../assets/card-4.png" class="img-fluid img-fluid border-bottom-right img-size shadow-lg" alt="...">
@@ -58,6 +62,7 @@
       </div>
     </div>
     <GetAFreeQuoteBtn />
+    <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
         <img src="../assets/card-5.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
@@ -70,6 +75,7 @@
       </div>
     </div>
     <GetAFreeQuoteBtn />
+    <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
         <img src="../assets/card-6.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
@@ -82,6 +88,7 @@
       </div>
     </div>
     <GetAFreeQuoteBtn />
+    <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
         <img src="../assets/card-7.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
@@ -94,6 +101,7 @@
       </div>
     </div>
     <GetAFreeQuoteBtn />
+    <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
         <img src="../assets/card-8.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
@@ -106,6 +114,7 @@
       </div>
     </div>
     <GetAFreeQuoteBtn />
+    <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
         <img src="../assets/card-9.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
@@ -117,6 +126,7 @@
       </div>
     </div>
     <GetAFreeQuoteBtn />
+    <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
         <img src="../assets/card-10.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
@@ -129,6 +139,7 @@
       </div>
     </div>
     <GetAFreeQuoteBtn />
+    <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
         <img src="../assets/card-11.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
@@ -141,6 +152,7 @@
       </div>
     </div>
     <GetAFreeQuoteBtn />
+    <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
         <img src="../assets/card-12.png" class="img-fluid border-bottom-right img-size shadow-lg" alt="...">
@@ -152,6 +164,8 @@
         </p>
       </div>
     </div>
+    <GetAFreeQuoteBtn />
+    <LetsTalk textColor="#ffffff" />
   </div>
 </template>
 
