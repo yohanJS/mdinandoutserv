@@ -102,13 +102,7 @@
                 <p>
                   Come in and learn about all of our services; we're here to help!
                 </p>
-                <div class="col-12 col-md-6 text-center mt-5">
-                  <button id="freeQuoteBtn" class="btn btn-lg rounded-pill btn-color btn-text-color fw-bold mb-2"
-                    style="width: 200px;" v-on:click=goToContactForm()>Get a free quote</button>
-                  <button id="servicesBtn"
-                    class="btn btn-lg rounded-pill glass-button btn-border-color text-white fw-bold"
-                    style="width: 200px;" v-on:click=goToServices()>All services</button>
-                </div>
+                <Buttons />
                 <Footer />
               </div>
             </div>
@@ -159,6 +153,7 @@ import { ref, onMounted, onBeforeUnmount } from 'vue';
 import { Modal } from 'bootstrap';
 import Footer from './Footer.vue';
 import CloseModalBtn from './CloseModalBtn.vue'
+import Buttons from './GetAFreeQuoteBtn.vue';
 
 const isMobile = ref(false);
 
