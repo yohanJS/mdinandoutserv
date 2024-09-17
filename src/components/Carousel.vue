@@ -1,36 +1,47 @@
 <template>
-<div class="container">
-  <div class="row">
-    <div class="col-12 col-md-6 col-lg-4" v-for="(carousel, index) in carousels" :key="index">
-      <div class="carousel-container my-4">
-        <div class="carousel" :style="{ transform: `translateX(-${carousel.currentSlide * 100}%)` }">
-          <div class="carousel-slide" v-for="(slide, slideIndex) in carousel.slides" :key="slideIndex">
-            <div class="image-container">
-              <img :src="slide.path" alt="Slide image" class="slide-path" />
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4" v-for="(carousel, index) in carousels" :key="index">
+        <div class="carousel-container my-4">
+          <div class="carousel" :style="{ transform: `translateX(-${carousel.currentSlide * 100}%)` }">
+            <div class="carousel-slide" v-for="(slide, slideIndex) in carousel.slides" :key="slideIndex">
+              <div class="image-container">
+                <img :src="slide.path" alt="Slide image" class="slide-path" />
+              </div>
+              <div class="text">{{ slide.text }}</div>
             </div>
-            <div class="text">{{ slide.text }}</div>
+          </div>
+          <div class="carousel-controls">
+            <button @click="prevSlide(index)">❮</button>
+            <button @click="nextSlide(index)">❯</button>
+          </div>
+          <div class="carousel-indicators">
+            <span v-for="(slide, slideIndex) in carousel.slides" :key="slideIndex"
+              :class="{ active: carousel.currentSlide === slideIndex }" @click="goToSlide(index, slideIndex)"></span>
           </div>
         </div>
-        <div class="carousel-controls">
-          <button @click="prevSlide(index)">❮</button>
-          <button @click="nextSlide(index)">❯</button>
-        </div>
-        <div class="carousel-indicators">
-          <span v-for="(slide, slideIndex) in carousel.slides" :key="slideIndex"
-            :class="{ active: carousel.currentSlide === slideIndex }" @click="goToSlide(index, slideIndex)"></span>
+        <div class="">
+          <LetsTalk :textColor="'#ffab00'" />
+          <GetAFreeQuoteBtn />
         </div>
       </div>
     </div>
   </div>
-</div>
 </template>
 
 
 
+
 <script>
-import { ref } from 'vue'
+import { ref } from 'vue';
+import LetsTalk from './LetsTalk.vue';
+import GetAFreeQuoteBtn from './GetAFreeQuoteBtn.vue';
 
 export default {
+  components: {
+    LetsTalk,
+    GetAFreeQuoteBtn
+  },
   setup() {
     const carousels = ref([
       {
@@ -46,29 +57,6 @@ export default {
           { path: new URL('../assets/prj-3.png', import.meta.url).href },
           { path: new URL('../assets/prj-4.png', import.meta.url).href },
           { path: new URL('../assets/prj-5.png', import.meta.url).href },
-        ]
-      },
-      {
-        currentSlide: 0,
-        slides: [
-          { path: new URL('../assets/prj-6.png', import.meta.url).href },
-          { path: new URL('../assets/prj-7.png', import.meta.url).href },
-          { path: new URL('../assets/prj-8.png', import.meta.url).href },
-        ]
-      },
-      {
-        currentSlide: 0,
-        slides: [
-          { path: new URL('../assets/prj-9.png', import.meta.url).href },
-          { path: new URL('../assets/prj-10.png', import.meta.url).href },
-          { path: new URL('../assets/prj-11.png', import.meta.url).href },
-        ]
-      },
-      {
-        currentSlide: 0,
-        slides: [
-          { path: new URL('../assets/prj-12.png', import.meta.url).href },
-          { path: new URL('../assets/prj-13.png', import.meta.url).href },
         ]
       },
       // Add more carousels here as needed
@@ -95,8 +83,9 @@ export default {
       goToSlide
     };
   }
-}
+};
 </script>
+
 
 
 
