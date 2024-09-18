@@ -35,12 +35,10 @@
 <script>
 import { ref } from 'vue';
 import LetsTalk from './LetsTalk.vue';
-import GetAFreeQuoteBtn from './GetAFreeQuoteBtn.vue';
 
 export default {
   components: {
-    LetsTalk,
-    GetAFreeQuoteBtn
+    LetsTalk
   },
   setup() {
     const carousels = ref([

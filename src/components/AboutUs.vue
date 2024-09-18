@@ -107,7 +107,7 @@
                     style="width: 200px;" v-on:click=goToContactForm()>Get a free quote</button>
                   <button id="servicesBtn"
                     class="btn btn-lg rounded-pill glass-button btn-border-color text-white fw-bold"
-                    style="width: 200px;" v-on:click=goToServices()>Services</button>
+                    style="width: 200px;" v-on:click=goToServices()>All services</button>
                 </div>
                 <Footer />
               </div>
@@ -162,6 +162,7 @@ import CloseModalBtn from './CloseModalBtn.vue'
 
 const isMobile = ref(false);
 
+// Methods
 const goToContactForm = () => {
   window.location.href = '#getQuoteSection';
   hideModal();

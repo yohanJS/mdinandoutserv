@@ -22,7 +22,7 @@
         </p>
       </div>
     </div>
-    <GetAFreeQuoteBtn />
+    
     <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
@@ -35,7 +35,7 @@
         </p>
       </div>
     </div>
-    <GetAFreeQuoteBtn />
+    
     <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
@@ -48,7 +48,7 @@
         </p>
       </div>
     </div>
-    <GetAFreeQuoteBtn />
+    
     <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
@@ -61,7 +61,7 @@
         </p>
       </div>
     </div>
-    <GetAFreeQuoteBtn />
+    
     <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
@@ -74,7 +74,7 @@
         </p>
       </div>
     </div>
-    <GetAFreeQuoteBtn />
+    
     <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
@@ -87,7 +87,7 @@
         </p>
       </div>
     </div>
-    <GetAFreeQuoteBtn />
+    
     <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
@@ -100,7 +100,7 @@
         </p>
       </div>
     </div>
-    <GetAFreeQuoteBtn />
+    
     <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
@@ -113,7 +113,7 @@
         </p>
       </div>
     </div>
-    <GetAFreeQuoteBtn />
+    
     <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
@@ -125,7 +125,7 @@
         </p>
       </div>
     </div>
-    <GetAFreeQuoteBtn />
+    
     <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
@@ -138,7 +138,7 @@
         </p>
       </div>
     </div>
-    <GetAFreeQuoteBtn />
+    
     <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
@@ -151,7 +151,7 @@
         </p>
       </div>
     </div>
-    <GetAFreeQuoteBtn />
+    
     <LetsTalk textColor="#ffffff" />
     <div class="container split-bg pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-dark mt-5">
@@ -164,7 +164,7 @@
         </p>
       </div>
     </div>
-    <GetAFreeQuoteBtn />
+    
     <LetsTalk textColor="#ffffff" />
   </div>
 </template>
@@ -172,7 +172,6 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import LetsTalk from './LetsTalk.vue';
-import GetAFreeQuoteBtn from './GetAFreeQuoteBtn.vue';
 
 const isMobile = ref(false);
 
