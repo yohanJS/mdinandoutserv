@@ -2,7 +2,7 @@
   <div class="container-fluid p-0 bg-color minvh-100">
     <div class="row g-0">
       <div class="col-md-12 shadow-lg position-relative">
-        <img src="../assets/bg-forNow.jpg" alt="Background Image" class="img-fluid"
+        <img src="../assets/bgMdInAndOut.jpg" alt="Background Image" class="img-fluid"
           style="object-fit: cover; width: 100%; height: 100vh;">
 
         <div class="row text-center text-white m-0 pb-5"
