@@ -1,6 +1,7 @@
 <script setup>
 import LetsTalk from './components/LetsTalk.vue';
 import NavBar from './components/NavBar.vue';
+import Booking from './components/Booking.vue';
 import HeroSection from './components/HeroSection.vue';
 import AboutUs from './components/AboutUs.vue';
 import Services from './components/Services.vue';
@@ -14,6 +15,7 @@ import Footer from './components/Footer.vue';
 <template>
   <LetsTalk></LetsTalk>
   <NavBar></NavBar>
+  <Booking></Booking>
   <HeroSection></HeroSection>
   <AboutUs></AboutUs>
   <Services></Services>
